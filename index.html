@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover your past, present, and future with Sivanadi Astro, a trusted Nadi Astrology center in bengaluru / Bangalore-560043 . Get authentic palm leaf readings for career, marriage, and life path guidance."
+    />
+    <meta name="theme-color" content="#0a0e29" />
+    <meta
+      name="description"
+      content="Discover expert astrology and spiritual services including Nadi Astrology, Marriage Compatibility, Homam, Puja, Yantras, Temple Guide, and more."
+    />
+
+    <title>
+      Sivanadi Astro | Authentic Nadi Astrology & Palm Leaf Readings
+    </title>
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Poppins:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Sivanadi Astro",
+        "image": "images/logo.png",
+        "url": "https://www.yourwebsite.com",
+        "telephone": "+919876543210",
+        "description": "Authentic Nadi Astrology readings from ancient palm leaf manuscripts to reveal your life's destiny in Rameswaram.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "108 Temple Street",
+          "addressLocality": "Rameswaram",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "623526",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 9.2876,
+          "longitude": 79.3129
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "10:00",
+            "closes": "14:00"
+          }
+        ],
+        "sameAs": [
+          "https://facebook.com/yourprofile",
+          "https://instagram.com/yourprofile",
+          "https://wa.me/919876543210",
+          "https://youtube.com/yourchannel"
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header-container">
+        <a href="#" class="logo"> Sivanadi<span>Astro</span> </a>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Nadi</a></li>
+            <li><a href="#chapters">Chapters</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#index-gallery">Gallery</a></li>
+            <li><a href="#fees">Fees</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <canvas id="starfield"></canvas>
+
+    <section class="hero section-border" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Discover Your Destiny with <span>Nadi Astrology</span>
+          </h1>
+          <p class="hero-subtitle" id="typing-text"></p>
+          <a href="#contact" class="btn">Book Your Palm Leaf Reading</a>
+        </div>
+      </div>
+      <!-- <div class="swastik-right"></div> -->
+      <div class="cosmic-mandala">
+        <!-- Outer circle -->
+        <div class="circle outer">
+          <div class="item">♈</div>
+          <div class="item">♉</div>
+          <div class="item">♊</div>
+          <div class="item">♋</div>
+          <div class="item">♌</div>
+          <div class="item">♍</div>
+          <div class="item">♎</div>
+          <div class="item">♏</div>
+          <div class="item">♐</div>
+          <div class="item">♑</div>
+          <div class="item">♒</div>
+          <div class="item">♓</div>
+        </div>
+
+        <!-- Inner circle -->
+        <div class="circle inner">
+          <div class="item">☉</div>
+          <div class="item">☽</div>
+          <div class="item">♂</div>
+          <div class="item">♀</div>
+          <div class="item">☿</div>
+          <div class="item">♃</div>
+          <div class="item">♄</div>
+          <div class="item">♅</div>
+        </div>
+
+        <!-- Center (Lord Shiva image) -->
+        <div class="center">
+          <img src="images/god-img/shiva.jpg" alt="Lord Shiva" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-border">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>What is Nadi Astrology?</h2>
+          <p>
+            An ancient, divine science revealing your past, present, and future
+            through sacred palm leaf manuscripts.
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>The Ancient Wisdom of the Sages</h3>
+            <p>
+              Nadi Astrology is a unique form of astrology that dates back
+              thousands of years. It is believed that ancient Hindu sages
+              recorded the life patterns of every soul on treated palm leaves,
+              known as Nadis.
+            </p>
+            <p>
+              These precious manuscripts have been meticulously preserved for
+              generations in Tamil Nadu. Each leaf corresponds to a specific
+              individual and contains detailed information about their life
+              path, karmic imprints, and ultimate destiny.
+            </p>
+
+            <h3>How Does a Nadi Reading Work?</h3>
+            <p>
+              Your journey begins with your thumb impression. Based on its
+              unique patterns, the Nadi reader skillfully identifies the bundle
+              of palm leaves that may contain your life's story.
+            </p>
+            <p>
+              Once your specific leaf is located, the reader confirms its
+              accuracy through a series of validation questions. The reading
+              then reveals profound insights about your life, relationships,
+              career, health, and spiritual purpose.
+            </p>
+          </div>
+          <div class="about-img">
+            <img
+              data-src="images/gallery-img/pic12.jpg"
+              data-full="images/gallery-img/pic12.jpg"
+              alt="Nadi Astrology Chapter 2: Insights on Family, Education, and Wealth"
+              class="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cosmic-section">
+      <div class="container">
+        <div class="cosmic-content text-center fade-in">
+          <h2 class="cosmic-title">Trusted Guidance for a Fulfilling Life</h2>
+          <p class="cosmic-subtitle">
+            Gain clarity and confidence with personalized Nadi readings designed
+            to guide you toward positive transformation.
+          </p>
+          <div class="divider"></div>
+          <div class="btn-container fade-in-delay">
+            <a href="#contact" class="btn">Book Your Consultation</a>
+            <a href="#services" class="btn btn-outline"
+              >Explore Our Nadi Services</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="chapters"
+      style="background-color: var(--white); padding: 6rem 0"
+      class="section-border"
+    >
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>The 16 Kandams (Chapters) of Nadi Astrology</h2>
+          <p>
+            Each Kandam, or chapter, delves into a different aspect of your
+            life's journey and destiny.
+          </p>
+        </div>
+
+        <div class="chapters-carousel-container">
+          <div class="chapters-carousel">
+            <div class="chapters-carousel-item">
+              <div class="card chapter-card">
+                <div class="card-img">
+                  <img
+                    data-src="images/chapters-image/chapter1.jpg"
+                    data-full="images/chapters-image/chapter1.jpg"
+                    alt="Nadi Astrology Chapter 1: General Predictions about life's journey"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Chapter 1: General Predictions</h3>
+                  <p>
+                    Overview of your life's journey, key events, and general
+                    characteristics.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chapters-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/chapters-image/chapter2.jpg"
+                    data-full="images/chapters-image/chapter2.jpg"
+                    alt="Nadi Astrology Chapter 2: Insights on Family, Education, and Wealth"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Chapter 2: Family & Education</h3>
+                  <p>
+                    Insights about your family background, education, and early
+                    life influences.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chapters-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/chapters-image/chapter3.jpg"
+                    data-full="images/chapters-image/chapter3.jpg"
+                    alt="Nadi Astrology Chapter 3: Predictions for Siblings and Relationships"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Chapter 3: Siblings & Relationships</h3>
+                  <p>
+                    Information about siblings, relationships with relatives,
+                    and social connections.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chapters-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/chapters-image/chapter4.jpg"
+                    data-full="images/chapters-image/chapter4.jpg"
+                    alt="Nadi Astrology Chapter 4: Guidance on Mother, Property, and Assets"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Chapter 4: Mother & Property</h3>
+                  <p>
+                    Details about your mother, ancestral property, and real
+                    estate matters.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chapters-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/chapters-image/chapter5.jpg"
+                    data-full="images/chapters-image/chapter5.jpg"
+                    alt="Nadi Astrology Chapter 5: Insights on Children and Creativity"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Chapter 5: Children & Creativity</h3>
+                  <p>
+                    Information about children, creative pursuits, and
+                    speculative ventures.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chapters-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/chapters-image/chapter6.jpg"
+                    data-full="images/chapters-image/chapter6.jpg"
+                    alt="Nadi Astrology Chapter 6: Details on Health and Wellbeing"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Chapter 6: Health & Wellbeing</h3>
+                  <p>
+                    Details about health, diseases, and overall wellbeing
+                    throughout life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chapters-carousel-controls">
+            <button class="chapters-carousel-btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="chapters-carousel-btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="chapters-carousel-dots">
+            <span class="chapters-dot active" data-index="0"></span>
+            <span class="chapters-dot" data-index="1"></span>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a
+            href="chapter.html"
+            class="btn btn-outline"
+            title="Learn about all 16 Nadi Chapters"
+            >View All 16 Chapters</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="banner"
+      style="background-color: var(--midnight-canvas)"
+      class="section-border"
+    >
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Our Sacred Space</h2>
+          <p>A gallery of divine moments and ancient wisdom.</p>
+        </div>
+        <div class="banner-grid">
+          <div class="banner-item item-top-left">
+            <img
+              class="lazy"
+              data-src="images/god-img/shiva-parvati.jpg"
+              data-full="images/god-img/shiva-parvati.jpg"
+              alt="shiva parvati image"
+            />
+          </div>
+
+          <div class="banner-item item-top-right">
+            <img
+              class="lazy"
+              data-src="images/god-img/vaitheeswara.jpg"
+              data-full="images/god-img/vaitheeswara.jpg"
+              alt="Decorative banner image, top right"
+            />
+          </div>
+
+          <div class="banner-item item-main">
+            <img
+              class="lazy"
+              data-src="images/gallery-img/pic10.jpg"
+              data-full="images/gallery-img/pic10.jpg"
+              alt="Main portrait banner image"
+            />
+          </div>
+
+          <div class="banner-item item-bottom-left">
+            <img
+              class="lazy"
+              data-src="images/god-img/ganesha1.jpg"
+              data-full="images/god-img/ganesha1.jpg"
+              alt="Decorative banner image, bottom left"
+            />
+          </div>
+
+          <div class="banner-item item-bottom-right">
+            <img
+              class="lazy"
+              data-src="images/god-img/muruga vel.jpg"
+              data-full="images/god-img/muruga vel.jpg"
+              alt="Decorative banner image, bottom right"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="services"
+      style="background-color: var(--cream)"
+      class="section-border"
+    >
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Our Nadi Astrology Services</h2>
+          <p>
+            We offer authentic Nadi reading services to meet your spiritual and
+            practical needs.
+          </p>
+        </div>
+
+        <div class="services-carousel-container">
+          <div class="services-carousel">
+            <div class="services-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/services-img/img1.jpg"
+                    data-full="images/services-img/img1.jpg"
+                    alt="Chapter 15: Nadi Astrology for medicinal remedies"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>NADI ASTROLOGY</h3>
+                  <p>
+                    Discover the ancient wisdom of Nadi Astrology, where sages
+                    recorded life patterns on palm leaves to reveal past,
+                    present, and future.
+                  </p>
+                  <a href="services.html#service-1" class="btn btn-outline"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="services-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/services-img/img2.jpg"
+                    data-full="images/services-img/img2.jpg"
+                    alt="Chapter 15: Nadi Astrology for medicinal remedies"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>MARRIAGE & LOVE COMPATIBILITY</h3>
+                  <p>
+                    Get precise marriage compatibility insights with Vedic
+                    Astrology by analyzing key planetary positions like Mars,
+                    Venus, Rahu, and Ketu.
+                  </p>
+                  <a href="services.html#service-2" class="btn btn-outline"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="services-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/services-img/img3.jpg"
+                    data-full="images/services-img/img3.jpg"
+                    alt="Chapter 15: Nadi Astrology for medicinal remedies"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>HOMAM & YAHAM</h3>
+                  <p>
+                    Experience sacred Vedic fire rituals (Homam & Yagam)
+                    performed with mantras and sankalpa to invoke blessings,
+                    peace, and prosperity.
+                  </p>
+                  <a href="services.html#service-3" class="btn btn-outline"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="services-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/services-img/img4.jpg"
+                    data-full="images/services-img/img4.jpg"
+                    alt="Chapter 15: Nadi Astrology for medicinal remedies"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>PUJA</h3>
+                  <p>
+                    Perform traditional Vedic Pujas to attract prosperity,
+                    remove obstacles, and deepen your connection with divine
+                    energies.
+                  </p>
+                  <a href="services.html#service-4" class="btn btn-outline"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="services-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/services-img/img5.jpg"
+                    data-full="images/services-img/img5.jpg"
+                    alt="Chapter 15: Nadi Astrology for medicinal remedies"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>YANTHIRAM/THAGADU</h3>
+                  <p>
+                    Powerful yantras crafted on copper, silver, or gold plates
+                    to balance energies and help resolve life’s challenges and
+                    obstacles.
+                  </p>
+                  <a href="services.html#service-5" class="btn btn-outline"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="services-carousel-item">
+              <div class="card">
+                <div class="card-img">
+                  <img
+                    data-src="images/services-img/img6.jpg"
+                    data-full="images/services-img/img6.jpg"
+                    alt="Chapter 15: Nadi Astrology for medicinal remedies"
+                    class="lazy"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3>Kula Deivam Kandupidithal</h3>
+                  <p>
+                    Reconnect with your ancestral deity (Kula Deivam) through
+                    guided spiritual practices and restore lost family
+                    traditions of worship.
+                  </p>
+                  <a href="services.html#service-6" class="btn btn-outline"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="services-carousel-controls">
+            <button class="services-carousel-btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="services-carousel-btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="services-carousel-dots">
+            <span class="services-dot active" data-index="0"></span>
+            <span class="services-dot" data-index="1"></span>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a
+            href="services.html"
+            class="btn btn-outline"
+            title="See all our Nadi Astrology Services"
+            >View All Services</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="index-gallery"
+      class="section-border"
+      style="background-color: var(--white)"
+    >
+      <div class="container">
+        <div class="text-center">
+          <h2>Our Gallery</h2>
+          <p>A gallery of divine moments and ancient wisdom.</p>
+        </div>
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="carousel-item">
+              <div class="gallery-item">
+                <img
+                  data-src="images/gallery-img/pic1.jpg"
+                  data-full="images/gallery-img/pic1.jpg"
+                  alt="Sivanadi Astro center in Rameswaram"
+                  class="lazy"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-item">
+                <img
+                  data-src="images/gallery-img/pic2.jpg"
+                  data-full="images/gallery-img/pic2.jpg"
+                  alt="Collection of ancient palm leaf manuscripts for Nadi Astrology"
+                  class="lazy"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-item">
+                <img
+                  data-src="images/gallery-img/pic3.jpg"
+                  data-full="images/gallery-img/pic3.jpg"
+                  alt="A Nadi reader explaining a palm leaf reading to a client"
+                  class="lazy"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-item">
+                <img
+                  data-src="images/gallery-img/pic4.jpg"
+                  data-full="images/gallery-img/pic4.jpg"
+                  alt="A Nadi reader explaining a palm leaf reading to a client"
+                  class="lazy"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-item">
+                <img
+                  data-src="images/gallery-img/pic5.jpg"
+                  data-full="images/gallery-img/pic5.jpg"
+                  alt="A Nadi reader explaining a palm leaf reading to a client"
+                  class="lazy"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-item">
+                <img
+                  data-src="images/gallery-img/pic6.jpg"
+                  data-full="images/gallery-img/pic6.jpg"
+                  alt="A Nadi reader explaining a palm leaf reading to a client"
+                  class="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn prev-btn" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel-btn next-btn" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+        </div>
+        <div class="text-center" style="margin-top: 3rem">
+          <a href="gallery.html" class="btn btn-outline">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="fees"
+      style="background-color: var(--cream)"
+      class="section-border"
+    >
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Fee Structure</h2>
+          <p>Transparent pricing for our spiritual services</p>
+        </div>
+
+        <div class="fees-table-container">
+          <table class="fees-table">
+            <thead>
+              <tr>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Thulliya Nadi</td>
+                <td>Basic reading covering essential life aspects</td>
+                <td>Rs. 3150</td>
+              </tr>
+              <tr>
+                <td>Maha Sukshama Nadi</td>
+                <td>Advanced reading with past life insights</td>
+                <td>Rs. 6050</td>
+              </tr>
+              <tr>
+                <td>Adhi Sukshama Nadi</td>
+                <td>Comprehensive reading with remedies</td>
+                <td>Rs. 9050</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div
+          class="notes"
+          style="
+            margin-top: 2rem;
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+          "
+        >
+          <h4>Important Notes:</h4>
+          <ul>
+            <li>Payment can be made via UPI, Bank Transfer, or Cash</li>
+            <li>Appointments must be booked at least 3 days in advance</li>
+            <li>Each session lasts approximately 60-90 minutes</li>
+            <li>Recording of sessions is permitted with prior notice</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      style="background-color: var(--white)"
+      class="section-border"
+    >
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Contact Us</h2>
+          <p>Reach out to us for appointments or inquiries</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="contact-details">
+                <h4>Our Center</h4>
+                <p>
+                  #2393/2, 2nd Floor, 4th Cross, Keerthi Layout, Above Poorvika
+                  Mobile Showroom, Kammanahalli Main Road, Bangalore - 560084.
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div class="contact-details">
+                <h4>Phone Numbers</h4>
+                <p>
+                  <a href="tel:+919876543210">+91 9035747540</a>
+                  (Mobile)<br />
+                  <a href="https://wa.me/919876543210">+91 9035747540</a>
+                  (WhatsApp)
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:sivanadiastro777@gmail.com"
+                    >sivanadiastro777@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div class="contact-details">
+                <h4>Working Hours</h4>
+                <p>
+                  Monday to Saturday: 9:00 AM - 6:00 PM<br />Sunday: 10:00 AM -
+                  2:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d242.95704490280113!2d77.636052!3d13.015747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1720c849ce49%3A0xa6c89624b84a0e4d!2sPoorvika%20Mobiles%20Kammanahalli.%20Buy%20Latest%20Mobiles%2C%20Laptops%2C%20Premium%20Gadgets%2C%20Mobile%20Accessories%20etc.!5e0!3m2!1sen!2sin!4v1757850181889!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              class="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <div class="footer-logo">Sivanadi<span>Astro</span></div>
+            <p>
+              Preserving the ancient wisdom of Nadi Astrology for spiritual
+              seekers worldwide. Our mission is to help individuals discover
+              their life's purpose through sacred palm leaf readings.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Visit our Facebook page"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Visit our Instagram profile"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://wa.me/9035747540?text=Hello,%20I%20would%20like%20to%20book%20a%20Nadi%20astrology%20reading"
+                aria-label="Contact us on WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#" aria-label="Watch us on YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Nadi</a></li>
+              <li><a href="#chapters">Chapters</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#index-gallery">Gallery</a></li>
+              <li><a href="#fees">Fees</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> #2393/2, 2nd Floor, 4th
+              Cross, Keerthi Layout, Above Poorvika Mobile Showroom,
+              Kammanahalli Main Road, Bangalore - 560084.
+            </p>
+            <p><i class="fas fa-phone-alt"></i>+91 9035747540</p>
+            <p><i class="fas fa-envelope"></i> sivanadiastro777@gmail.com</p>
+            <p><i class="fas fa-clock"></i> Mon-Sat: 9AM - 6PM</p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>© 2025 Sivanadi Astro Center. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <div class="floating-buttons">
+      <a
+        href="https://wa.me/9035747540?text=Hello,%20I%20would%20like%20to%20book%20a%20Nadi%20astrology%20reading"
+        class="floating-btn whatsapp-btn"
+        target="_blank"
+        aria-label="Contact via WhatsApp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a
+        href="tel:+919035747540"
+        class="floating-btn call-btn"
+        aria-label="Call us"
+      >
+        <i class="fas fa-phone"></i>
+      </a>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script type="module" src="js/performance-config.js"></script>
+    <script src="js/lazyloading.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </body>
+</html>
