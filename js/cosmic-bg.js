@@ -208,7 +208,7 @@ function animate() {
 
   // Camera zoom on scroll
   const targetZ = 18 - scrollY * 0.002;
-  camera.position.z += (targetZ - camera.position.z) * 0.06;
+  camera.position.z += (targetZ - camera.position.z) * 0.01;
 
   const progress = clamp(scrollY / 1000, 0, 1);
 
